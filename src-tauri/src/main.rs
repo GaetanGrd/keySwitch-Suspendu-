@@ -19,3 +19,4 @@ fn create_default_profil() -> ProfilGame {
     let profil = ProfilGame::new("test Game");
     profil
 }
+
