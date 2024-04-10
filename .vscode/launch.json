@@ -5,6 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "command": "npm run tauri dev",
+            "name": "Tauri Dev",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
